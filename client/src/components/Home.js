@@ -22,8 +22,9 @@ class Home extends Component {
               <div key={program.id} className="ui card four wide column">
                 <h2>{program.name}</h2>
                 <img src={program.avatar} />
-                <h3>{program.description}</h3>
-                <h3>{program.author}</h3>
+                <h3>Description: {program.description}</h3>
+                <h3>Author: {program.author}</h3>
+                <h3>Category: {program.category}</h3>
               </div>
             )
           }
